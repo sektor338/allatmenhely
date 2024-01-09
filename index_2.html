@@ -43,13 +43,16 @@
 <body class="bg-background">
 
     <!--  
+        Rezponzív?
+        Telefonon meglehessen nézni normálisan
         Email: fradistakazallatokert@gmail.com 
     -->
 
-    <nav class="p-4 text-white border-b-2 border-accent">
+    <nav class="p-4 border-b-2 border-accent">
         <div class="text-text container mx-auto flex justify-between">
-            <div class="flex items-center space-x-3 rtl:space-x-reverse"><img src="images/logo.png" alt="Logó" class="w-20"> <span class="text-2xl font-bold text-accent">Fradisták Az Állatokért</span></div>
-            <div class="items-center text-lg flex space-x-3">
+            <div class="flex items-center space-x-3 rtl:space-x-reverse"> <img src="images/logo.png" alt="Logó" class="w-20"> <a href="index_2.html"> <span class="text-2xl font-bold text-accent">Fradisták Az Állatokért</span></a></div>
+            <!-- az legyen aláhúzva amelyik témát a felhasználó látja -->
+            <div class="items-center text-lg flex space-x-6">
                 <a href="#supporters">Támogatóink</a>
                 <a href="#about">Rólunk</a>
                 <a href="#donation">Adományozás</a>
@@ -57,6 +60,33 @@
             </div>
         </div>
     </nav>
+
+    <div class="flex flex-basis-1/4 m-6">
+        <div class="p-4 grid grid-cols-2 gap-4 bg-primary rounded-2xl mr-6">
+            <div>
+                <img class="h-40 max-w-full rounded-lg" src="images/catto.jpg" alt="Feri">
+            </div>
+            <div>
+                <img class="h-40 max-w-full rounded-lg" src="images/catto.jpg" alt="Feri">
+            </div>
+            <div>
+                <img class="h-40 max-w-full rounded-lg" src="images/catto.jpg" alt="Feri">
+            </div>
+            <div>
+                <img class="h-40 max-w-full rounded-lg" src="images/catto.jpg" alt="Feri">
+            </div>
+        </div>
+
+        <div class="p-4 flex-basis-1/2 bg-primary rounded-lg mr-6">
+            <h1>Hogyan segíthettek</h1>
+            <span>...</span>    
+        </div>
+        <div class="p-4 flex-basis-1/4 bg-primary rounded-lg">
+            <h1>Hírek</h1>
+            <span>...</span>
+        </div>
+
+    </div>
 </body>
 
 </html>

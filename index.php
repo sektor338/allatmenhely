@@ -90,14 +90,28 @@
         </h1>
         <div class="flex flex-col flex-grow">
           <div class="cella">
-            <span>...</span>
+            <span>Adományozz:<br> Pénzadományokat fogadunk, amelyeket az állatok ellátására és a menhely fenntartására használunk fel.
+            Az adományokat közvetlenül a weboldalunkon keresztül lehet megtenni.</span>
           </div>
           <div class="cella">
-            <span>...</span>
+            <span>Önkénteskedj:<br> Mindig szükségünk van önkéntesekre, 
+            akik segítenek az állatok gondozásában, takarításban, vagy akár az eseményeink szervezésében.</span>
           </div>
           <div class="cella">
-            <span>...</span>
+            <span>Adoptálj egy állatot: <br> Sok szeretetre méltó állat várja, hogy örök otthonra találjon.
+               Tekintsd meg az örökbefogadható állatainkat a weboldalunkon.</span>
           </div>
+          <div class="cella">
+            <span>Népszerűsítsd a menhelyet:<br> Oszd meg a menhelyünk tevékenységét a közösségi médiában,
+               hogy minél több emberhez eljusson az üzenetünk.</span>
+          </div>
+          <div class="cella">
+            <span>Hozz adományt: <br> Mindig szükségünk van állateledelekre,
+               takarókra, játékokra és egyéb felszerelésekre.</span>
+          </div>
+          <div class="cella">
+                <span>Köszönjük, hogy segítesz a rászoruló állatokon!</span>
+               </div>
         </div>
       </div>
 

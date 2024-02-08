@@ -2,7 +2,7 @@
       <div class="text-text container mx-auto flex justify-between">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="images/logo.png" alt="Logó" class="w-20" />
-          <a href="index_2.html">
+          <a href="index.php">
             <span class="text-2xl font-bold text-accent max-md:text-xl"
               >Fradisták Az Állatokért</span
             ></a

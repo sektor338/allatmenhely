@@ -21,10 +21,10 @@
           class="max-md:opacity-0 max-md:-translate-y-3 transition-all max-md:pointer-events-none items-center text-lg flex space-x-6 max-md:absolute max-md:flex-col max-md:top-[107%] max-md:left-0 max-md:bg-background max-md:w-full max-md:py-9 max-md:gap-7"
           id="menu"
         >
-          <a href="#supporters">Támogatóink</a>
-          <a href="#about">Rólunk</a>
-          <a href="#donation">Adományozás</a>
-          <a href="#volunteer">Jelentkezz önkéntesnek</a>
+          <a href="supporters.php">Támogatóink</a>
+          <a href="about.php">Rólunk</a>
+          <a href="donation.php">Adományozás</a>
+          <a href="volunteer.php">Jelentkezz önkéntesnek</a>
         </div>
       </div>
     </nav>

@@ -42,6 +42,7 @@
         }
       }
     </style>
+     <script src="js/index.js" defer></script>
   </head>
 
   <body class="bg-background min-h-screen pt-[114px]">

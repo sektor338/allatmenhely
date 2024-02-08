@@ -3,15 +3,12 @@
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="images/logo.png" alt="Logó" class="w-20" />
           <a href="index.php">
-            <span class="text-2xl font-bold text-accent max-md:text-xl"
-              >Fradisták Az Állatokért</span
-            ></a
-          >
+            <span class="text-2xl font-bold text-accent max-md:text-xl">
+              Fradisták Az Állatokért</span></a>
         </div>
         <button
           class="max-md:absolute right-10 top-8 max-md:flex hidden flex-col gap-3"
-          onclick="hmenu()"
-        >
+          onclick="hmenu()">
           <div class="w-16 h-2 bg-white"></div>
           <div class="w-16 h-2 bg-white"></div>
           <div class="w-16 h-2 bg-white"></div>

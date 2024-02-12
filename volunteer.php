@@ -27,7 +27,7 @@
                 content-visibility: auto;
             }
             .cella {
-                @apply flex-grow bg-secondary rounded-lg p-5 mb-4;
+                @apply flex-grow bg-secondary rounded-lg p-5 mb-4 shadow-xl;
             }
             .section {
             }
@@ -42,6 +42,7 @@
             }
         }
     </style>
+       <script src="js/index.js" defer></script>
 </head>
 
 <body class="bg-background min-h-screen pt-[114px]">

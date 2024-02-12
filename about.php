@@ -63,25 +63,26 @@
 
 <!-- ELÉRHETŐSÉGEK -->
 
-<div class="container mx-auto flex flex-row m-6 p-4 w-full h-screen text-white text-xl">
+<div class="container mx-auto flex flex-row m-6 p-4 w-full h-auto text-white text-xl">
       <div
-        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]">
+        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[460px]">
         <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
           Elérhetőségeink
         </h1>
         
         <!-- FACEBOOK -->
-          <div class="cella text-center flex justify-center items-center text-underline">
-          <a href="https://www.facebook.com/fradistakazallatokert/"> <img class="rounded-full w-[200px] h-[200px]" src="images/facebook.jpg" alt="logo"></a>
+          <div class="flex h-46 bg-secondary rounded-lg p-5 mb-4 shadow-xl text-center justify-center items-center text-underline">
+          <a  href="https://www.facebook.com/fradistakazallatokert/" target="_blank"> <img class="rounded-full w-[200px] h-[200px]" src="images/facebook.jpg" alt="logo"></a>
 
-            <span class="hover:text-accent ml-6"><a href="https://www.facebook.com/fradistakazallatokert/">Facebook oldalunk</a> </span>
+            <span class="hover:text-accent ml-6"><a href="https://www.facebook.com/fradistakazallatokert/" target="_blank">Facebook oldalunk</a> </span>
           </div>
         <!-- EMAIL US -->
-          <div class="cella">
-            <span> fradistakazallatokert@gmail.com  </span>
+          <div class="flex h-24 bg-secondary rounded-lg p-5 mb-4 shadow-xl text-center justify-center items-center">
+            
+            <a href="mailto:fradistakazallatokert@gmail.com">Küldj email-t: <span> fradistakazallatokert@gmail.com  </span></a>
           </div>
         <!-- PHONE? -->
-          <div class="cella">
+          <div class="flex h-24 bg-secondary rounded-lg p-5 mb-4 shadow-xl text-center justify-center items-center">
             <span>[telefonszám]</span>
           </div>
         </div>
@@ -89,18 +90,21 @@
 <!-- RÓLUNK -->
 
       <div
-        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]">
+        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[460px]">
         <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
         Állatmentő szolgálat
         </h1>
         <div class="flex flex-col flex-grow">
         <!-- Mi a célunk? -->
-          <div class="cella">
-            <span>(Mi a célunk?)</span>
+          <div class="flex h-24 bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center items-center">
+            <span class="pl-14 pr-6">Célunk a bajbajutott állatok megmentése és új otthon biztosítása szerető környezettel.</span>
           </div>
         <!-- Miért kezdtük el? -->
-          <div class="cella">
-            <span>(Miért kezdtük el?)</span>
+          <div class="flex h-46 bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center items-center">
+            <span class="pl-14 pr-6">Örömmel jelentjük be, hogy megalakult a <br> “Fradisták Az Állatokért” csapata. <br> <br>
+                  Egy páran összejöttünk 2021 októberén, <br> de sokatokra szükségünk lesz! <br> <br> Az Állatok Világnapján terveztük bejelenteni a létrejöttünket. <br>
+                  Így hát most üzenjük mindenkinek: Köszöntsétek kedvenceiteket, és segítsetek a rászoruló állatokon lehetőségeitekhez mérten.
+            </span>
           </div>
         </div>
       </div>

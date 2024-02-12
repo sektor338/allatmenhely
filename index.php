@@ -28,7 +28,7 @@
           content-visibility: auto;
         }
         .cella {
-          @apply flex-grow bg-secondary rounded-lg p-5 mb-4;
+          @apply flex-grow bg-secondary rounded-lg p-5 mb-4 shadow-xl;
         }
         .section {
         }
@@ -143,5 +143,7 @@
         </div>
       </div>
     </div>
+    
+
   </body>
 </html>

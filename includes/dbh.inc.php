@@ -1,7 +1,7 @@
 <?php 
-$servername = "141.144.224.20";
+$servername = "";
 $username = "u24_WUmZlJHkkX";
-$password = "Bw^!77w=Ul8yFIeaxRQP9@Jj";
+$password = "";
 $dbname = "s24_allatmenhely";
 /*
 $servername = "localhost";

@@ -27,9 +27,7 @@
           content-visibility: auto;
         }
         .cella {
-          @apply flex-grow bg-secondary rounded-lg p-5 mb-4;
-        }
-        .section {
+          @apply flex flex-grow bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center items-center;
         }
       }
       @layer base {
@@ -61,22 +59,50 @@
 
       ?>
 
-<div class="container mx-auto flex flex-row m-6 p-4 w-full h-screen">
+<!-- ELÉRHETŐSÉGEK -->
+
+<div class="container mx-auto flex flex-row m-6 p-4 w-full h-screen text-white text-xl">
       <div
-        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]"
-      >
-        <h1 class="text-lg text-white mb-8 border-b-2 border-secondary">
-          Fogadj örökbe!
+        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]">
+        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
+          Elérhetőségeink
+        </h1>
+        
+        <!-- FACEBOOK -->
+          <div class="cella text-center flex justify-center items-center text-underline">
+          <a href="https://www.facebook.com/fradistakazallatokert/"> <img class="rounded-full w-[200px] h-[200px]" src="images/facebook.jpg" alt="logo"></a>
+
+            <span class="hover:text-accent ml-6"><a href="https://www.facebook.com/fradistakazallatokert/">Facebook oldalunk</a> </span>
+          </div>
+        <!-- EMAIL US -->
+          <div class="cella">
+            <span> fradistakazallatokert@gmail.com  </span>
+          </div>
+        <!-- PHONE? -->
+          <div class="cella">
+            <span>[telefonszám]</span>
+          </div>
+        </div>
+
+<!-- RÓLUNK -->
+
+      <div
+        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]">
+        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
+        Állatmentő szolgálat
         </h1>
         <div class="flex flex-col flex-grow">
+        <!-- Mi a célunk? -->
           <div class="cella">
-            <span>...</span>
+            <span>(Mi a célunk?)</span>
           </div>
+        <!-- Miért kezdtük el? -->
           <div class="cella">
-            <span>...</span>
+            <span>(Miért kezdtük el?)</span>
           </div>
         </div>
       </div>
     </div>
+
   </body>
 </html>

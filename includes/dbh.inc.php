@@ -1,8 +1,8 @@
 <?php 
 $servername = "";
-$username = "u24_WUmZlJHkkX";
+$username = "";
 $password = "";
-$dbname = "s24_allatmenhely";
+$dbname = "";
 /*
 $servername = "localhost";
 $username = "root";

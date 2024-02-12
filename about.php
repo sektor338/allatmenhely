@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fradisták Az Állatokért</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        text: "var(--text)",
+                        background: "var(--background)",
+                        primary: "var(--primary)",
+                        secondary: "var(--secondary)",
+                        accent: "var(--accent)",
+                    },
+                },
+            },
+        };
+    </script>
+    <link rel="icon" type="image/x-icon" href="images/logo.png" />
+    <script src="js/index.js" defer></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .cella {
+                @apply flex-grow bg-secondary rounded-lg p-5 mb-4;
+            }
+            .section {
+            }
+        }
+        @layer base {
+            :root {
+                --text: #ffd899;
+                --background: #131313;
+                --primary: #1e6726;
+                --secondary: #61a352;
+                --accent: #dfa553;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-background min-h-screen pt-[114px]">
+
 <?php
+      
+      require_once("./includes/navbar.php");
+
+?>
+
+
+<div class="container mx-auto m-6 p-4 w-full h-screen">
+
+</div>
+</body>
+</html>

@@ -16,6 +16,7 @@
               secondary: "var(--secondary)",
               accent: "var(--accent)",
             },
+
           },
         },
       };

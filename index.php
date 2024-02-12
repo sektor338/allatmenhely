@@ -16,6 +16,7 @@
               secondary: "var(--secondary)",
               accent: "var(--accent)",
             },
+
           },
         },
       };
@@ -63,11 +64,11 @@
 
     <!-- KÉPEK -->
 
-    <div class="container mx-auto flex flex-row m-6 p-4 w-full h-screen">
+    <div class="container mx-auto flex flex-row m-6 p-4 w-full min-h-screen">
       <div
-        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]"
+        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px]"
       >
-        <h1 class="text-lg text-white mb-8 border-b-2 border-secondary">
+        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
           Fogadj örökbe!
         </h1>
         <div class="flex flex-col flex-grow">
@@ -83,30 +84,44 @@
       <!-- FOGALMAZÁS -->
 
       <div
-        class="flex-grow flex flex-col p-5 basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]"
+        class="flex-grow flex flex-col p-5 basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px]"
       >
-        <h1 class="text-lg text-white mb-8 border-b-2 border-secondary">
+        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
           Hogyan segíthettek
         </h1>
         <div class="flex flex-col flex-grow">
           <div class="cella">
-            <span>...</span>
+            <span class="text-white"><div class="text-xl underline mb-1">Adományozz</div><br> Pénzadományokat fogadunk, amelyeket az állatok ellátására és a menhely fenntartására használunk fel.
+            Az adományokat közvetlenül a weboldalunkon keresztül lehet megtenni.</span>
+          </div>
+          <div class="cella ">
+            <span  class="text-white"><div class="text-xl underline mb-1">Önkénteskedj</div><br> Mindig szükségünk van önkéntesekre, 
+            akik segítenek az állatok gondozásában, takarításban, vagy akár az eseményeink szervezésében.</span>
           </div>
           <div class="cella">
-            <span>...</span>
+            <span  class="text-white"><div class="text-xl underline mb-1">Adoptálj egy állatot</div> <br> Sok szeretetre méltó állat várja, hogy örök otthonra találjon.
+               Tekintsd meg az örökbefogadható állatainkat a weboldalunkon.</span>
           </div>
           <div class="cella">
-            <span>...</span>
+            <span  class="text-white"><div class="text-xl underline mb-1">Népszerűsítsd a menhelyet</div><br> Oszd meg a menhelyünk tevékenységét a közösségi médiában,
+               hogy minél több emberhez eljusson az üzenetünk.</span>
           </div>
+          <div class="cella">
+            <span  class="text-white"><div class="text-xl underline mb-1">Hozz adományt</div> <br> Mindig szükségünk van állateledelekre,
+               takarókra, játékokra és egyéb felszerelésekre.</span>
+          </div>
+          <div class="cella">
+                <span class="text-xl text-white">Köszönjük, hogy segítesz a rászoruló állatokon!</span>
+               </div>
         </div>
       </div>
 
       <!-- LE HÍREK -->
 
       <div
-        class="flex flex-col p-5 basis-1/4 bg-primary rounded-lg h-full flex-grow min-h-[900px]"
+        class="flex flex-col p-5 basis-1/4 bg-primary rounded-lg h-full flex-grow min-h-[1000px]"
       >
-        <h1 class="text-lg text-white mb-8 border-b-2 border-secondary">
+        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
           Hírek
         </h1>
         <div class="flex flex-col flex-grow">

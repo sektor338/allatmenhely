@@ -53,8 +53,16 @@
 ?>
 
 
-<div class="container mx-auto m-6 p-4 w-full h-screen">
+<div class="container mx-auto m-6 p-4 w-full grid place-items-center">
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
 
+<stripe-buy-button
+  buy-button-id="buy_btn_1Okrr8ArHuOCW9Ob6yExYprF"
+  publishable-key="pk_live_51LgsAmArHuOCW9Ob6OBSaMDHM1bq3DRhFH9ugjzbvNGtYXcgMxUs5zmyzAL8SRz0lO0GAbn6fUWvaLX3CUKyBtoE00jvekCFH8"
+>
+</stripe-buy-button>
 </div>
 </body>
 </html>

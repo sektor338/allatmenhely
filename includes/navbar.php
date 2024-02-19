@@ -27,7 +27,7 @@
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="images/logo.png" alt="Logó" class="w-20" />
           <a href="index.php">
-            <span class="text-2xl font-bold text-accent max-md:text-xl">
+            <span class="text-2xl font-bold text-accent max-md:hidden">
               Fradisták Az Állatokért</span></a>
         </div>
         <button

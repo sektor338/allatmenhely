@@ -22,7 +22,7 @@
         },
       };
     </script>
-<nav class="p-4 border-b-2 border-accent absolute top-0 left-0 w-full">
+<nav class="p-4 border-b-2 border-accent fixed z-50 top-0 left-0 w-full bg-background">
       <div class="text-text container mx-auto flex justify-between">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="images/logo.png" alt="Logó" class="w-20" />

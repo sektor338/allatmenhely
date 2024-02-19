@@ -54,6 +54,13 @@
 ?>
 
 
+<div class="container mx-auto m-6 p-4 w-full h-screen">
+    <p class="text-4xl text-[#ffd899] font-semibold mb-4">Adományozás</p>
+        <p class="text-[#ffd899] font-semibold text-xl absolute -mb-6 z-20 ml-1">Most változtathatsz szegény állatok sorsán</p>
+        <img src="images/catto2.jpg" alt="ceca" class="lg:w-2/5 w-full rounded border-[#ffd899] border inline-block">
+        <p class="text-[#61a352] inline-block align-top w-1/4 lg:ml-2">Abban az esetben ha netán olyan szándéka támadna hogy véletlenül adományozni próbálna vagy akár még szeretne is, hogy kisállatok sorsán segítsen akkor a következő számlaszámra teheti meg: nyolc karakter-nyolc karakter<br>Előre is köszönjük.</p>
+
+
 <div class="container mx-auto m-6 p-4 w-full grid place-items-center">
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
@@ -64,6 +71,6 @@
   publishable-key="pk_live_51LgsAmArHuOCW9Ob6OBSaMDHM1bq3DRhFH9ugjzbvNGtYXcgMxUs5zmyzAL8SRz0lO0GAbn6fUWvaLX3CUKyBtoE00jvekCFH8"
 >
 </stripe-buy-button>
-</div>
+</div></div>
 </body>
 </html>

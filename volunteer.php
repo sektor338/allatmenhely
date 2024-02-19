@@ -27,7 +27,7 @@
                 content-visibility: auto;
             }
             .cella {
-                @apply flex-grow bg-secondary rounded-lg p-5 mb-4;
+                @apply flex-grow bg-secondary rounded-lg p-5 mb-4 shadow-xl;
             }
             .section {
             }
@@ -42,6 +42,7 @@
             }
         }
     </style>
+       <script src="js/index.js" defer></script>
 </head>
 
 <body class="bg-background ">
@@ -60,7 +61,7 @@
 
 		<div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl bg-lime-600	mx-auto">
 			<div class="flex">
-				<h1 class="font-bold uppercase text-5xl">JELENTKEZZ <br /> ÖNKÉNTESNEK!</h1>
+				<h1 class="font-bold uppercase text-5xl max-md:text-3xl">JELENTKEZZ <br /> ÖNKÉNTESNEK!</h1>
 			</div>
 			<div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
 				<input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"

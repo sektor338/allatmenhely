@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" lang="hu-HU"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -63,10 +62,10 @@
 
 <!-- ELÉRHETŐSÉGEK -->
 
-<div class="container mx-auto flex flex-row m-6 p-4 w-full h-auto text-white text-xl">
+<div class="container mx-auto flex flex-row m-6 p-4 w-full h-auto text-xl">
       <div
         class="p-5 flex flex-col basis-1/3 bg-primary rounded-lg mr-6 min-h-[460px]">
-        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
+        <h1 class="text-2xl mb-8 border-b-2 border-secondary">
           Elérhetőségeink
         </h1>
         
@@ -89,7 +88,7 @@
 
       <div
         class="p-5 flex flex-col basis-2/3 bg-primary rounded-lg min-h-[460px]">
-        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
+        <h1 class="text-2xl mb-8 border-b-2 border-secondary">
         Állatmentő szolgálat
         </h1>
         <div class="flex flex-col flex-grow">

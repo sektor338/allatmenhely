@@ -42,6 +42,7 @@
             }
         }
     </style>
+    <script src="js/index.js" defer></script>
 </head>
 
 <body class="bg-background min-h-screen pt-[114px]">
@@ -70,7 +71,15 @@
         <p class="text-red-700 text-center font-bold text-[1rem] mt-[1rem] rotate-[-1deg] pl-[2rem] pr-[2rem]"><a href="https://www.google.com/maps/place/Budapest,+Dob+u.+2,+1072/@47.4911205,19.037573,14.25z/data=!4m6!3m5!1s0x4741dc4240572149:0xdd19b90f2ac5f639!8m2!3d47.4962739!4d19.0589894!16s%2Fg%2F11c266mngg?hl=hu&entry=ttu">Dob utca 2., Budapest, Hungary </a> </p>
         <p class="text-red-700 text-center font-bold text-[1rem] mt-[1rem] rotate-[-1deg] pl-[2rem] pr-[2rem]"><a href="https://www.google.com/maps/place/T%C3%B6k%C3%B6l,+Hermina+%C3%BAt+1-3,+2316/@47.3177192,18.9665462,12.46z/data=!4m6!3m5!1s0x4741e53feca20c75:0x328c186fc99b8234!8m2!3d47.3370125!4d18.9966247!16s%2Fg%2F11qpmtd966?hl=hu&entry=ttu">Hermina út 1-3, Tököl, Hungary </a> </p>
 </div>
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
 
+<stripe-buy-button
+  buy-button-id="buy_btn_1Okrr8ArHuOCW9Ob6yExYprF"
+  publishable-key="pk_live_51LgsAmArHuOCW9Ob6OBSaMDHM1bq3DRhFH9ugjzbvNGtYXcgMxUs5zmyzAL8SRz0lO0GAbn6fUWvaLX3CUKyBtoE00jvekCFH8"
+>
+</stripe-buy-button>
 </div>
 </body>
 </html>

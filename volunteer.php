@@ -59,7 +59,7 @@
 	<!-- COMPONENT CODE -->
 	<div class="container mx-auto my-4 px-4 lg:px-20">
 
-		<div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl bg-lime-600	mx-auto">
+		<div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl bg-primary mx-auto">
 			<div class="flex">
 				<h1 class="font-bold uppercase text-5xl">JELENTKEZZ <br /> ÖNKÉNTESNEK!</h1>
 			</div>
@@ -78,7 +78,7 @@
 					<textarea placeholder="Ha szeretnél tudni több információt akkor ide írj..." class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="megjegyzes"></textarea>
 				</div>
 				<div class="my-2 w-1/2 lg:w-1/4">
-					<button class="uppercase text-sm font-bold tracking-wide bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
+					<button class="hover:scale-105 transform active:scale-90 transition-transform uppercase text-sm font-bold tracking-wide bg-secondary text-gray-100 p-3 rounded-lg w-full 
                       focus:outline-none focus:shadow-outline">
            Küldés
           </button>

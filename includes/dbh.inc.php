@@ -1,11 +1,9 @@
-<?php 
-<<<<<<< HEAD
-=======
+<?php
+
 $servername = "";
 $username = "";
 $password = "";
 $dbname = "";
->>>>>>> 7a35c409dfaebd7c1aa92fdfd61ba71ca7ca521a
 /*
 $servername = "localhost";
 $username = "root";

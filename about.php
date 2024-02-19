@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8" lang="hu-HU"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>

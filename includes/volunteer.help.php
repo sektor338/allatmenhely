@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
  * @param string $number The phone number to be checked
  * @return string|bool Returns the valid Hungarian phone number without the double 00 prefix, or false if the number is invalid
  */
-function validate_hungarian_phone_number($number) {
+$number = 0;
     require_once("./includes/dbh.inc.php");
     $name = $_POST['full_name'];
     $email = $_POST['email'];
@@ -31,17 +31,15 @@ function validate_hungarian_phone_number($number) {
     if (preg_match('/^(?:\+36|06)(?:20|30|31|70)[\d]{7}$/', $number)) {
         // Return the valid Hungarian phone number
         if(empty($name) || empty($email) || empty($number) || empty($lakcim)) {
-            header("Location: volunteer.php?emptyinput=1");
+            header("Location: volunteer.php?=emptyinput=1");
         
         } else {
             $stmt = "INSERT INTO `onkentesek`(`nev`, `email`, `telefonszam`, `lakcim`, `egyeb`) VALUES ('$name','$email','$number','$lakcim','$megjegyzes')";
             mysqli_query($conn, $stmt);
-            header("Location: volunteer.php?success");
+            header("Location: volunteer.php?=success");
         }
     } else {
         // Return false if the number is invalid
-        header("Location: volunteer.php?phone=false ");
+        header("Location: volunteer.php?=phone=false ");
     }
-}
-validate_hungarian_phone_number($number);
 }

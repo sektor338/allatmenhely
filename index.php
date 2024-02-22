@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
     <script>
       tailwind.config = {
         theme: {

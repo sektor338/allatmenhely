@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name=description content="about us">
     <title>Fradisták Az Állatokért</title>
@@ -58,6 +59,7 @@
 <div class="text-2xl  max-md:text-xl container mx-auto flex flex-row m-6 p-4 w-full h-auto max-md:flex-col">
       <div class="p-5 flex flex-col basis-1/3 bg-primary rounded-lg mr-6 min-h-[460px]  max-md:mb-6 max-md:mr-0">
         <h1 class="text-3xl mb-8 border-b-2 border-secondary text-white">
+
           Elérhetőségeink
         </h1>
         
@@ -88,8 +90,8 @@
         <h1 class="text-2xl mb-8 border-b-2 border-secondary text-white">
            Állatmentő szolgálat
         </h1>
-
         <div class="flex flex-col flex-grow">
+          
         <!-- Mi a célunk? -->
           <div class="cella basis-1/4">
             <span class="p-3">

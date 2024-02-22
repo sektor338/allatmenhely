@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
-    <meta charset="UTF-8" lang="hu-HU"/>
+    <meta charset="UTF-8" lang="hu"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name=description content="about us">
     <title>Fradisták Az Állatokért</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -66,7 +67,7 @@
         
         <!-- FACEBOOK -->
           <div class="flex basis-1/2 bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center  items-center text-underline">
-            <a  href="https://www.facebook.com/fradistakazallatokert/" target="_blank"> <img class="rounded-full scale-75 object-left" src="images/facebook.jpg" alt="logo"></a>
+            <a  href="https://www.facebook.com/fradistakazallatokert/" target="_blank"> <img class="rounded-full scale-75 object-left w-full h-full aspect-square object-contain" src="images/facebook.jpg" alt="logo"></a>
             <span class="hover:text-accent m-2"><a href="https://www.facebook.com/fradistakazallatokert/" target="_blank">Facebook oldalunk</a> </span>
           </div>
         <!-- EMAIL US -->

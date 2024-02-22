@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" lang="hu-HU"/>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -62,6 +63,7 @@
 
 <!-- ELÉRHETŐSÉGEK -->
 
+
 <div class="container mx-auto flex flex-row m-6 p-4 w-full h-auto text-xl">
       <div
         class="p-5 flex flex-col basis-1/3 bg-primary rounded-lg mr-6 min-h-[460px]">
@@ -70,6 +72,7 @@
         </h1>
         
         <!-- FACEBOOK -->
+
           <div class="flex basis-1/3 bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center  items-center text-underline">
             <a  href="https://www.facebook.com/fradistakazallatokert/" target="_blank"> <img class="rounded-full scale-75 object-left" src="images/facebook.jpg" alt="logo"></a>
             <span class="hover:text-accent m-2"><a href="https://www.facebook.com/fradistakazallatokert/" target="_blank">Facebook oldalunk</a> </span>
@@ -87,12 +90,14 @@
 <!-- RÓLUNK -->
 
       <div
-        class="p-5 flex flex-col basis-2/3 bg-primary rounded-lg min-h-[460px]">
-        <h1 class="text-2xl mb-8 border-b-2 border-secondary">
+        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[900px]">
+        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
+
         Állatmentő szolgálat
         </h1>
         <div class="flex flex-col flex-grow">
         <!-- Mi a célunk? -->
+
           <div class="flex basis-1/4 bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center items-center">
             <span class="p-3">Célunk a bajbajutott állatok megmentése és új otthon biztosítása szerető környezettel.</span>
           </div>

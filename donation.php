@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+    <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>
@@ -63,6 +64,8 @@
     <div class="absolute top-[9.8rem] left-[13.4rem] "><a target="_blank" href="https://www.google.com/maps/place/Budapest,+P%C3%A1rk%C3%A1ny+u.+8,+1138/@47.4801832,18.9156432,12.33z/data=!4m6!3m5!1s0x4741dbefc5006fa9:0x12172d6bee471570!8m2!3d47.5288967!4d19.0598339!16s%2Fg%2F11h0t8rjlv?hl=hu&entry=ttu"><img class="w-[50px] h-[50px]" src="images/pointer.webp" alt=""></a></div>
     <div class="absolute top-[14.6rem] left-[12.3rem] "><a target="_blank" href="https://www.google.com/maps/place/Budapest,+Dob+u.+2,+1072/@47.4911205,19.037573,14.25z/data=!4m6!3m5!1s0x4741dc4240572149:0xdd19b90f2ac5f639!8m2!3d47.4962739!4d19.0589894!16s%2Fg%2F11c266mngg?hl=hu&entry=ttu"><img class="w-[50px] h-[50px] rotate-[-50deg]" src="images/pointer.webp" alt=""></a></div>
 </div>
+
+
     <!-- Pontok a térképen -->
        
 
@@ -83,6 +86,7 @@
   publishable-key="pk_live_51LgsAmArHuOCW9Ob6OBSaMDHM1bq3DRhFH9ugjzbvNGtYXcgMxUs5zmyzAL8SRz0lO0GAbn6fUWvaLX3CUKyBtoE00jvekCFH8"
 >
 </stripe-buy-button>
+
 </div>
 </body>
 </html>

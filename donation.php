@@ -57,6 +57,8 @@
 
 <div class="container mx-auto m-6 p-4 w-full h-screen">
 
+
+=======
         <div class="absolute top-[10rem] left-[70rem] "><img class="rounded-[5000rem] w-[600px] h-[600px]" src="images/map.webp" alt=""></div>
     <!-- Pontok a térképen -->
         <div class="absolute top-[28.3rem] left-[91.3rem] "><a target="_blank" href="https://www.google.com/maps/place/Budapest,+Gy%C3%B6mr%C5%91i+%C3%BAt+119,+1108/@47.4798978,19.0970548,12.63z/data=!4m6!3m5!1s0x4741c30168ed3c95:0xd05eb36d18cac756!8m2!3d47.4622691!4d19.167785!16s%2Fg%2F11j8w86j07?hl=hu&entry=ttu"><img class="w-[50px] h-[50px]" src="images/pointer.webp" alt=""></a></div>
@@ -81,6 +83,7 @@
   publishable-key="pk_live_51LgsAmArHuOCW9Ob6OBSaMDHM1bq3DRhFH9ugjzbvNGtYXcgMxUs5zmyzAL8SRz0lO0GAbn6fUWvaLX3CUKyBtoE00jvekCFH8"
 >
 </stripe-buy-button>
+
 </div>
 </body>
 </html>

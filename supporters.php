@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="hu-HU">
-
 <head>
   <link rel="stylesheet" href="main.css">
   <meta charset="UTF-8" />
@@ -42,9 +41,9 @@
         }
       }
     </style>
+
   <script src="js/index.js" defer></script>
 </head>
-
 <body class="bg-background min-h-screen pt-[114px]">
 
   <!-- Navbar -->
@@ -66,5 +65,5 @@
 
   </div>
 </body>
-
 </html>
+

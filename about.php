@@ -57,9 +57,9 @@
 
 <!-- ELÉRHETŐSÉGEK -->
 
-<div class="text-2xl container mx-auto flex flex-row m-6 p-4 w-full h-auto max-md:flex-col">
+<div class="text-2xl  max-md:text-xl container mx-auto flex flex-row m-6 p-4 w-full h-auto max-md:flex-col">
       <div
-        class="p-5 flex flex-col basis-1/3 bg-primary rounded-lg mr-6 min-h-[460px]  max-md:m-4">
+        class="p-5 flex flex-col basis-1/3 bg-primary rounded-lg mr-6 min-h-[460px]  max-md:mb-6 max-md:mr-0">
         <h1 class="text-3xl mb-8 border-b-2 border-secondary text-white">
           Elérhetőségeink
         </h1>
@@ -83,11 +83,11 @@
         </h1>
         <div class="flex flex-col flex-grow">
         <!-- Mi a célunk? -->
-          <div class="flex basis-1/4 bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center items-center">
+          <div class="cella basis-1/4">
             <span class="p-3">Célunk a bajbajutott állatok megmentése és új otthon biztosítása szerető környezettel.</span>
           </div>
         <!-- Miért kezdtük el? -->
-          <div class="flex basis-1/4 bg-secondary rounded-lg p-5 mb-4 shadow-xl justify-center items-center">
+          <div class="cella basis-1/4">
             <span class="p-3">Örömmel jelentjük be, hogy megalakult a <br> “Fradisták Az Állatokért” csapata. <br> <br>
                   Egy páran összejöttünk 2021 októberén, <br> de sokatokra szükségünk lesz! <br> <br> Az Állatok Világnapján terveztük bejelenteni a létrejöttünket. <br>
                   Így hát most üzenjük mindenkinek: Köszöntsétek kedvenceiteket, és segítsetek a rászoruló állatokon lehetőségeitekhez mérten.

@@ -88,7 +88,7 @@
 </div>
 <div class="relative">
         
-        <img class="rounded-[5000rem] min-w-[600px] min-h-[600px]" src="images/map.webp" alt="">
+        <img class="rounded-[5000rem] min-w-[600px] min-h-[600px] max-w-[600px] max-h-[600px]" src="images/map.webp" alt="">
         <div class="absolute top-[18.3rem] left-[21.3rem] "><a target="_blank" href="https://www.google.com/maps/place/Budapest,+Gy%C3%B6mr%C5%91i+%C3%BAt+119,+1108/@47.4798978,19.0970548,12.63z/data=!4m6!3m5!1s0x4741c30168ed3c95:0xd05eb36d18cac756!8m2!3d47.4622691!4d19.167785!16s%2Fg%2F11j8w86j07?hl=hu&entry=ttu"><img class="min-w-[50px] min-h-[50px] max-w-[50px] max-h-[50px]" src="images/pointer.webp" alt=""></a></div>
         <div class="absolute top-[14rem] left-[13.5rem] "><a target="_blank" href="https://www.google.com/maps/place/Budapest,+Nagy+Di%C3%B3fa+u.+19,+1072/@47.4911206,19.0658658,13.75z/data=!4m6!3m5!1s0x4741dc680c560d6f:0xc926cd78fc00290a!8m2!3d47.4979425!4d19.0647922!16s%2Fg%2F11csgq7vv2?hl=hu&entry=ttu"><img class="min-w-[50px] min-h-[50px] max-w-[50px] max-h-[50px]" src="images/pointer.webp" alt=""></a></div>
         <div class="absolute top-[9.8rem] left-[13.4rem] "><a target="_blank" href="https://www.google.com/maps/place/Budapest,+P%C3%A1rk%C3%A1ny+u.+8,+1138/@47.4801832,18.9156432,12.33z/data=!4m6!3m5!1s0x4741dbefc5006fa9:0x12172d6bee471570!8m2!3d47.5288967!4d19.0598339!16s%2Fg%2F11h0t8rjlv?hl=hu&entry=ttu"><img class="min-w-[50px] min-h-[50px] max-w-[50px] max-h-[50px]" src="images/pointer.webp" alt=""></a></div>

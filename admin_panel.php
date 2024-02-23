@@ -51,8 +51,16 @@
         include_once("./includes/admin_navbar.php")
     ?>
 
-    <div class="flex-grow flex flex-col p-5 w-[14px] bg-primary rounded-lg mr-6 min-h-[500px] mt-52">
-      
+    <div class="flex-grow flex flex-col p-5 w-80 bg-primary rounded-lg m-auto min-h-[400px] mt-36">
+
+      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Felhasználók kezelése</button>
+
+      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Állatok kezelése</button>
+
+      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Hírek kezelése</button>
+
+      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Önkéntesek</button>
+
     </div>
 </body>
 </html>

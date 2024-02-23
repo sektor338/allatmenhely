@@ -58,10 +58,6 @@
 var path = window.location.pathname;
 var page = path.split("/").pop();
 const routes = [
-  ["Felhasználók kezelése", "supporters.php"],
-  ["Állatok kezelése", "about.php"],
-  ["Hírek kezelése", "donation.php"],
-  ["Önkéntesek", "volunteer.php"],
   ["Kijelentkezés", "adminlogin.php"],
 ];
 

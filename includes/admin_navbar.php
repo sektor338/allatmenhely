@@ -25,10 +25,10 @@
 <nav class="p-4 border-b-2 border-accent fixed z-50 top-0 left-0 w-full bg-background">
       <div class="text-text container mx-auto flex justify-between">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
-        <a href="./index.php" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
+          <img src="images/logo.png" alt="Logó" class="w-20 h-20" />
           <a href="./index.php" aria-label="Fradisták Az Állatokért">
             <span class="text-2xl font-bold text-accent max-md:hidden">
-              Fradisták Az Állatokért</span></a>
+              Admin panel</span></a>
         </div>
         <button aria-label="burgir"
           class="max-md:absolute right-10 top-8 max-md:flex hidden flex-col gap-3"
@@ -58,10 +58,11 @@
 var path = window.location.pathname;
 var page = path.split("/").pop();
 const routes = [
-  ["Támogatóink", "supporters.php"],
-  ["Rólunk", "about.php"],
-  ["Adományozás", "donation.php"],
-  ["Jelentkezz önkéntesnek", "volunteer.php"],
+  ["Felhasználók kezelése", "supporters.php"],
+  ["Állatok kezelése", "about.php"],
+  ["Hírek kezelése", "donation.php"],
+  ["Önkéntesek", "volunteer.php"],
+  ["Kijelentkezés", "adminlogin.php"],
 ];
 
 routes.map(([label, to]) => {

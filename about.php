@@ -25,6 +25,12 @@
     </script>
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
     <style type="text/tailwindcss">
+      .kkhover {
+        transition: all 0.3s;
+      }
+      .kkhover:hover {
+        color: var(--accent);
+      }
       @layer utilities {
         .content-auto {
           content-visibility: auto;
@@ -68,7 +74,7 @@
             <a  href="https://www.facebook.com/fradistakazallatokert/" target="_blank">
               <img class="rounded-full scale-75 object-left w-full h-full aspect-square object-contain" src="images/facebook.jpg" alt="logo">
             </a>
-            <span class="hover:text-accent m-2">
+            <span class="kkhover m-2">
               <a href="https://www.facebook.com/fradistakazallatokert/" target="_blank">
                 Facebook oldalunk
               </a>

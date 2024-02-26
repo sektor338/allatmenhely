@@ -56,8 +56,8 @@
 
 <!-- ELÉRHETŐSÉGEK -->
 
-<div class="text-2xl  max-md:text-xl container mx-auto flex flex-row m-6 p-4 w-full h-auto max-md:flex-col">
-      <div class="p-5 flex flex-col basis-1/3 bg-primary rounded-lg mr-6 min-h-[460px]  max-md:mb-6 max-md:mr-0">
+<div class="text-2xl  max-md:text-xl container mx-auto flex flex-row m-6 p-4 w-full h-auto max-md:flex-col gap-8">
+      <div class="p-5 flex flex-col basis-1/3 bg-primary rounded-lg min-h-[460px]  max-md:mb-6">
         <h1 class="text-3xl mb-8 border-b-2 border-secondary text-white">
 
           Elérhetőségeink

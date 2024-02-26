@@ -22,15 +22,15 @@
         },
       };
     </script>
-<nav class="p-4 border-b-2 border-accent absolute top-0 left-0 w-full">
+<nav class="p-4 border-b-2 border-accent fixed z-50 top-0 left-0 w-full bg-background">
       <div class="text-text container mx-auto flex justify-between">
-        <div class="flex items-center space-x-3 rtl:space-x-reverse ">
-          <img src="images/logo.png" alt="Logó" class="w-20" />
-          <a href="index.php">
-            <span class="text-2xl font-bold text-accent max-md:text-xl">
+        <div class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="./index.php" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
+          <a href="./index.php" aria-label="Fradisták Az Állatokért">
+            <span class="text-2xl font-bold text-accent max-md:hidden">
               Fradisták Az Állatokért</span></a>
         </div>
-        <button
+        <button aria-label="burgir"
           class="max-md:absolute right-10 top-8 max-md:flex hidden flex-col gap-3"
           onclick="hmenu()">
           <div class="w-16 h-2 bg-white"></div>

@@ -3,35 +3,31 @@ require_once 'dbh.inc.php';
 require_once 'config_session.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $username = $_POST["username"];
+    $email = $_POST["email"];
     $password = $_POST["password"];
 
-    if(empty($username) || empty([$password])){
-        header("Location: ../login.php");
+    if(empty($email) || empty([$password])){
+        header("Location: ../adminlogin.php");
     }
     else {
-        $stmt = "SELECT * FROM users WHERE username='$username'";
+        $stmt = "SELECT * FROM users WHERE email='$email'";
         $res = mysqli_query($conn, $stmt);
         if(mysqli_num_rows($res) == 0) {
-            header("Location: ../login.php");
+            header("Location: ../adminlogin.php");
             exit();
         }
          else {
             while($row = mysqli_fetch_assoc($res)) {
                 if (password_verify($password, $row['password'])) {
-                    $_SESSION["username"] = $username;
-                    header("Location: ../fooldal.php?loginsuccess=1");
+                    $_SESSION["email"] = $email;
+                    header("Location: ../admin_panel.php?loginsuccess=1");
                 } else {
-                    header("Location: ../login.php?error=wrongpwd");
+                    header("Location: ../adminlogin.php?error=wrongpwd");
                     exit();
                 }
             }
          }
     }
 }else {
-    header("Location: ../login.php");
+    header("Location: ../adminlogin.php");
 }
-
-
-
-?>

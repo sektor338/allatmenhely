@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
     <script>
       tailwind.config = {
         theme: {
@@ -63,10 +64,11 @@
       ?>
 
     <!-- KÉPEK -->
-
-    <div class="container mx-auto flex flex-row m-6 p-4 w-full min-h-screen">
+<!-- ml-[10px] mt-[10px] min-w-[350px] -->
+    
+      <div class="flex max-md:flex-col">
       <div
-        class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px]"
+        class="p-5 ml-[10px] mt-[10px] flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px] min-w-[350px] max-w-[500px] mb-[20px]"
       >
         <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
           Fogadj örökbe!
@@ -84,7 +86,7 @@
       <!-- FOGALMAZÁS -->
 
       <div
-        class="flex-grow flex flex-col p-5 basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px]"
+        class="flex-grow flex flex-col p-5 basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px] ml-[10px] mt-[10px] min-w-[350px] mb-[20px] max-w-[500px]"
       >
         <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
           Hogyan segíthettek
@@ -119,7 +121,7 @@
       <!-- LE HÍREK -->
 
       <div
-        class="flex flex-col p-5 basis-1/4 bg-primary rounded-lg h-full flex-grow min-h-[1000px]"
+        class="flex flex-col p-5 basis-1/4 bg-primary rounded-lg h-full flex-grow min-h-[1000px] ml-[10px] mt-[10px] min-w-[350px] mb-[20px] mr-[20px] max-w-[500px]"
       >
         <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
           Hírek
@@ -142,7 +144,7 @@
           </div>
         </div>
       </div>
-    </div>
+      </div>
     
 
   </body>

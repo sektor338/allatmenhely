@@ -76,7 +76,7 @@
           </div>
 
         <!-- EMAIL US -->
-          <div class="flex basis-1/2 bg-secondary rounded-lg p-5 mb-4 shadow-xl text-center justify-center items-center">
+          <div class="flex basis-1/2 bg-secondary rounded-lg p-5 mb-4 shadow-xl text-center justify-center items-center max-sm:text-l">
             <span>
               Küldj email-t:<br>
               fradistakazallatokert@gmail.com

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="hu-HU">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,21 +46,21 @@
     </style>
      <script src="js/index.js" defer></script>
 </head>
-<body class="bg-background">
+<body class="bg-background flex flex-col h-screen">
     <?php 
         include_once("./includes/admin_navbar.php")
     ?>
 
-    <div class="flex-grow flex flex-col p-5 w-80 bg-primary rounded-lg m-auto min-h-[400px] mt-36">
+    <div class="flex flex-grow">
+      <div class="flex flex-col p-5 w-80 bg-primary rounded-lg m-auto min-h-[400px]">
+        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Felhasználók kezelése</button>
 
-      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Felhasználók kezelése</button>
+        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Állatok kezelése</button>
 
-      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Állatok kezelése</button>
+        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Hírek kezelése</button>
 
-      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Hírek kezelése</button>
-
-      <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#D5912A] text-xl w-69">Önkéntesek</button>
-
+        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Önkéntesek</button>
+      </div>
     </div>
 </body>
 </html>

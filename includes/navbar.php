@@ -40,6 +40,12 @@
       font-style: normal;
       font-size: 24px;
     }
+    .ggver {
+      transition: all 0.3s;
+    }
+    .ggver:hover {
+      color: var(--secondary);
+    }
   </style>
 </head>
 <script>
@@ -72,7 +78,7 @@
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
         <a href="./index.php" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
           <a href="./index.php" aria-label="Fradisták Az Állatokért">
-            <span class="max-md:hidden title">
+            <span class="ggver max-md:hidden title">
               Fradisták Az Állatokért</span></a>
         </div>
         <button aria-label="burgir"

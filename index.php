@@ -66,9 +66,9 @@
 
     <!-- KÉPEK -->
     
-      <div class="flex max-md:flex-col text-2xl  max-md:text-xl max-sm:text-l container mx-auto flex-row m-6 p-4 w-full h-auto gap-8">
+      <div class="flex max-[1000px]:flex-col text-2xl  max-md:text-xl max-sm:text-l container mx-auto flex-row m-6 p-4 w-full h-auto gap-8">
 
-      <div class="flex gap-8">
+      <div class="flex gap-8  max-md:flex-col">
 
         <div class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg min-h-[500px]">
           <h1 class="text-2xl border-b-2 border-secondary mb-8 text-white">

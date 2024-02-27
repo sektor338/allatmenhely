@@ -1,53 +1,3 @@
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: "Roboto Slab", serif;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-    }
-
-    h1, h2, h3, h4, h5, h6, p{
-      font-family: "Be Vietnam Pro", sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      font-size: 10px;
-    }
-    span{
-      font-family: "Roboto Slab", sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      font-size: 18px;
-    }
-    input{
-      font-family: "Roboto Slab", serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 18px;
-    }
-    a, div{
-      font-family: "Be Vietnam Pro", sans-serif;;
-      font-weight: 500;
-      font-style: normal;
-      font-size: 16px;
-    }
-    .title{
-      font-family: "Be Vietnam Pro", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 24px;
-    }
-    .ggver {
-      transition: all 0.3s;
-    }
-    .ggver:hover {
-      color: var(--secondary);
-    }
-  </style>
-</head>
 <script>
       tailwind.config = {
         theme: {
@@ -72,14 +22,13 @@
         },
       };
     </script>
-
 <nav class="p-4 border-b-2 border-accent fixed z-50 top-0 left-0 w-full bg-background">
       <div class="text-text container mx-auto flex justify-between">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
-        <a href="./index.php" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
-          <a href="./index.php" aria-label="Fradisták Az Állatokért">
-            <span class="ggver max-md:hidden title">
-              Fradisták Az Állatokért</span></a>
+        <a href="./admin_panel.php" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
+          <a href="./admin_panel.php" aria-label="Admin panel">
+            <span class="text-2xl font-bold text-accent max-md:hidden">
+              Admin panel</span></a>
         </div>
         <button aria-label="burgir"
           class="max-md:absolute right-10 top-8 max-md:flex hidden flex-col gap-3"
@@ -109,10 +58,7 @@
 var path = window.location.pathname;
 var page = path.split("/").pop();
 const routes = [
-  ["Támogatóink", "supporters.php"],
-  ["Rólunk", "about.php"],
-  ["Adományozás", "donation.php"],
-  ["Jelentkezz önkéntesnek", "volunteer.php"],
+  ["Kijelentkezés", "adminlogin.php"],
 ];
 
 routes.map(([label, to]) => {

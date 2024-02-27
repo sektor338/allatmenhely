@@ -53,13 +53,13 @@
 
     <div class="flex flex-grow">
       <div class="flex flex-col p-5 w-80 bg-primary rounded-lg m-auto min-h-[400px]">
-        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Felhasználók kezelése</button>
+        <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#C98927] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Felhasználók kezelése</button>
 
-        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Állatok kezelése</button>
+        <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#C98927] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Állatok kezelése</button>
 
-        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Hírek kezelése</button>
+        <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#C98927] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Hírek kezelése</button>
 
-        <button class="rounded-md m-5 p-3 bg-secondary hover:bg-[#7ebd6f] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Önkéntesek</button>
+        <button class="rounded-md m-5 p-3 bg-accent hover:bg-[#C98927] text-xl w-69 hover:scale-105 transform active:scale-90 transition-transform">Önkéntesek</button>
       </div>
     </div>
 </body>

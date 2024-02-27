@@ -25,7 +25,7 @@
 <nav class="p-4 border-b-2 border-accent fixed z-50 top-0 left-0 w-full bg-background">
       <div class="text-text container mx-auto flex justify-between">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
-        <a href="./admin_panel.php" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
+        <a href="./admin_panel.php" aria-label="Admin panel"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
           <a href="./admin_panel.php" aria-label="Admin panel">
             <span class="text-2xl font-bold text-accent max-md:hidden">
               Admin panel</span></a>

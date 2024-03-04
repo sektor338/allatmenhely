@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Fradi állatmentő szolgálat">
     <link rel="stylesheet" href="main.css">
     <script>
       tailwind.config = {
@@ -64,87 +65,86 @@
       ?>
 
     <!-- KÉPEK -->
-<!-- ml-[10px] mt-[10px] min-w-[350px] -->
     
-      <div class="flex max-md:flex-col">
-      <div
-        class="p-5 ml-[10px] mt-[10px] flex flex-col basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px] min-w-[350px] max-w-[500px] mb-[20px]"
-      >
-        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
-          Fogadj örökbe!
-        </h1>
-        <div class="flex flex-col flex-grow">
-          <div class="cella">
-            <span>...</span>
-          </div>
-          <div class="cella">
-            <span>...</span>
+      <div class="flex max-md:flex-col text-2xl  max-md:text-xl max-sm:text-l container mx-auto flex-row m-6 p-4 w-full h-auto gap-8">
+
+      <div class="flex gap-8">
+
+        <div class="p-5 flex flex-col basis-1/2 bg-primary rounded-lg min-h-[500px]">
+          <h1 class="text-2xl border-b-2 border-secondary mb-8 text-white">
+            Fogadj örökbe!
+          </h1>
+          <div class="flex flex-col flex-grow">
+            <div class="cella">
+              <!-- kép -->
+            </div>
+            <div class="cella">
+              <!-- kép -->
+            </div>
           </div>
         </div>
-      </div>
 
       <!-- FOGALMAZÁS -->
 
-      <div
-        class="flex-grow flex flex-col p-5 basis-1/2 bg-primary rounded-lg mr-6 min-h-[1000px] ml-[10px] mt-[10px] min-w-[350px] mb-[20px] max-w-[500px]"
-      >
-        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
-          Hogyan segíthettek
-        </h1>
-        <div class="flex flex-col flex-grow">
-          <div class="cella">
-            <span class="text-white"><div class="text-xl underline mb-1">Adományozz</div><br> Pénzadományokat fogadunk, amelyeket az állatok ellátására és a menhely fenntartására használunk fel.
-            Az adományokat közvetlenül a weboldalunkon keresztül lehet megtenni.</span>
+        <div class="flex-grow flex flex-col p-5 basis-1/2 bg-primary rounded-lg min-h-[500px]">
+          <h1 class="text-2xl border-b-2 border-secondary mb-8 text-white">
+            Hogyan segíthettek
+          </h1>
+          <div class="flex flex-col flex-grow">
+            <div class="cella">
+              <span><u class="text-2xl">Adományozz</u><br> Pénzadományokat fogadunk, amelyeket az állatok ellátására és a menhely fenntartására használunk fel.
+              Az adományokat közvetlenül a weboldalunkon keresztül lehet megtenni.</span>
+            </div>
+            <div class="cella ">
+              <span><u class="text-2xl">Önkénteskedj</u><br> Mindig szükségünk van önkéntesekre, 
+              akik segítenek az állatok gondozásában, takarításban, vagy akár az eseményeink szervezésében.</span>
+            </div>
+            <div class="cella">
+              <span><u class="text-2xl">Adoptálj egy állatot</u> <br> Sok szeretetre méltó állat várja, hogy örök otthonra találjon.
+                Tekintsd meg az örökbefogadható állatainkat a weboldalunkon.</span>
+            </div>
+            <div class="cella">
+              <span><u class="text-2xl">Népszerűsítsd a menhelyet</u><br> Oszd meg a menhelyünk tevékenységét a közösségi médiában,
+                hogy minél több emberhez eljusson az üzenetünk.</span>
+            </div>
+            <div class="cella">
+              <span> <u class="text-2xl">Hozz adományt</u> <br> Mindig szükségünk van állateledelekre,
+                takarókra, játékokra és egyéb felszerelésekre.</span>
+            </div>
+            <div class="cella">
+                  <span>Köszönjük, hogy segítesz a rászoruló állatokon!</span>
+                </div>
           </div>
-          <div class="cella ">
-            <span  class="text-white"><div class="text-xl underline mb-1">Önkénteskedj</div><br> Mindig szükségünk van önkéntesekre, 
-            akik segítenek az állatok gondozásában, takarításban, vagy akár az eseményeink szervezésében.</span>
-          </div>
-          <div class="cella">
-            <span  class="text-white"><div class="text-xl underline mb-1">Adoptálj egy állatot</div> <br> Sok szeretetre méltó állat várja, hogy örök otthonra találjon.
-               Tekintsd meg az örökbefogadható állatainkat a weboldalunkon.</span>
-          </div>
-          <div class="cella">
-            <span  class="text-white"><div class="text-xl underline mb-1">Népszerűsítsd a menhelyet</div><br> Oszd meg a menhelyünk tevékenységét a közösségi médiában,
-               hogy minél több emberhez eljusson az üzenetünk.</span>
-          </div>
-          <div class="cella">
-            <span  class="text-white"><div class="text-xl underline mb-1">Hozz adományt</div> <br> Mindig szükségünk van állateledelekre,
-               takarókra, játékokra és egyéb felszerelésekre.</span>
-          </div>
-          <div class="cella">
-                <span class="text-xl text-white">Köszönjük, hogy segítesz a rászoruló állatokon!</span>
-               </div>
         </div>
+      
       </div>
-
       <!-- LE HÍREK -->
 
-      <div
-        class="flex flex-col p-5 basis-1/4 bg-primary rounded-lg h-full flex-grow min-h-[1000px] ml-[10px] mt-[10px] min-w-[350px] mb-[20px] mr-[20px] max-w-[500px]"
-      >
-        <h1 class="text-2xl text-white mb-8 border-b-2 border-secondary">
-          Hírek
-        </h1>
-        <div class="flex flex-col flex-grow">
-          <div class="cella">
-            <span>...</span>
-          </div>
-          <div class="cella">
-            <span>...</span>
-          </div>
-          <div class="cella">
-            <span>...</span>
-          </div>
-          <div class="cella">
-            <span>...</span>
-          </div>
-          <div class="cella">
-            <span>...</span>
+      <div class="flex-grow flex flex-col p-5 basis-1/4 bg-primary rounded-lg min-h-[500px]">
+          <h1 class="text-2xl border-b-2 border-secondary mb-8 text-white">
+            Hírek
+          </h1>
+          <div class="flex flex-col flex-grow">
+            <div class="cella">
+              <span></span>
+            </div>
+            <div class="cella ">
+              <span></span>
+            </div>
+            <div class="cella">
+              <span></span>
+            </div>
+            <div class="cella">
+              <span></span>
+            </div>
+            <div class="cella">
+              <span></span>
+            </div>
+            <div class="cella">
+              <span></span>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
     
 
   </body>

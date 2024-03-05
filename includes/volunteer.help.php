@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
  * @return string|bool Returns the valid Hungarian phone number without the double 00 prefix, or false if the number is invalid
  */
 $number = 0;
-    require_once("./includes/dbh.inc.php");
+    require_once("dbh.inc.php");
     $name = $_POST['full_name'];
     $email = $_POST['email'];
     $number = $_POST['phone'];

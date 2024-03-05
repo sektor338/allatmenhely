@@ -13,7 +13,7 @@ $dbname = "adatbazis";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-$sql = "SELECT * FROM `users`";
+$sql = "SELECT * FROM `onkentesek`";
 
 $res = mysqli_query($conn, $sql);
 

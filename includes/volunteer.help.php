@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
  * @return string|bool Returns the valid Hungarian phone number without the double 00 prefix, or false if the number is invalid
  */
 $number = 0;
-    require_once("./includes/dbh.inc.php");
+    require_once("dbh.inc.php");
     $name = $_POST['full_name'];
     $email = $_POST['email'];
     $number = $_POST['phone'];
@@ -28,7 +28,7 @@ $number = 0;
     }
    
     // Check if the number is a valid Hungarian phone number
-    if (preg_match('/^(?:\+36|36|06)(?:20|30|31|70)[\d]{7}$/', $number)) {
+    if (preg_match('/^(?:\+36|36|06)(?:1|20|30|31|50|70|80)[\d]{7}$/', $number)) {
         // Return the valid Hungarian phone number
         if(empty($name) || empty($email) || empty($number) || empty($lakcim)) {
             header("Location: volunteer.php?=emptyinput=1");

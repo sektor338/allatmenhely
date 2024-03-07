@@ -10,7 +10,7 @@ include_once "includes/edit.php";
 
 echo "
 <body class='bg-[#131313]'>
-    <div class='mx-40 relative overflow-x-auto shadow-md sm:rounded-lg'>
+    <div class='mx-40 mt-8 relative overflow-x-auto shadow-md sm:rounded-lg'>
         <table class='w-full text-sm text-left rtl:text-right text-black'>
             <thead class='text-xs text-[#ffd899] uppercase bg-[#1e6726]'>
                 <tr>

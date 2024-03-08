@@ -10,11 +10,10 @@ if(isset($_POST['update'])) {
 	$email = $_POST['email'];	
     $lakcim = $_POST['lakcim'];
 
-		$query = "UPDATE `onkentesek` SET `nev`='$name',`email`='$email',`telefonszam`='$telszam',`lakcim`='$lakcim' WHERE id = '$id' ";
-		$query_run = mysqli_query($conn, $query);
-
-		if($query_run)
-		{
+	$stmt = $conn->prepare("UPDATE `onkentesek` SET `nev`=?,`email`=?,`telefonszam`=?,`lakcim`=? WHERE id = ? ");
+	$stmt->bind_param("sssss", $name,$email,$telszam,$lakcim,$id);
+		if($stmt->execute())
+		{$stmt->close();
 			header("location:../onkentes.php");
 		}
 		else

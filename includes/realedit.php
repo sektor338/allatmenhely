@@ -27,7 +27,7 @@ include_once "edit.php";
         $lakcim = $row['lakcim'];
         $egyeb  = $row['egyeb'];
     echo "     
-               <form  method='post' action='.   /edit.php'>
+               <form  method='post' action='./edit.php'>
             <div class='p-4 md:p-5'>
             <input type='hidden' name='id' value='$id'>
                 <div>

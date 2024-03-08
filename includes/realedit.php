@@ -2,20 +2,10 @@
  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
-<style>
-    td,  tr {
-        border: 2px solid black;
-        border-radius: 1px;
-        padding: 30px;
-        
-    }
-</style>
-
 <?php
 include_once "dbh.inc.php";
 include_once "config_session.php";
 include_once "edit.php";
-  //Creates a loop to loop through resu 
     $id = $_POST['editgomb'];
      $stmt = "SELECT * FROM onkentesek WHERE id= '$id' LIMIT 1";
      $result =  mysqli_query ($conn, $stmt);

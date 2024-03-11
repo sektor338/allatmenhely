@@ -85,13 +85,13 @@
 
 <!-- Állatfeltöltés -->
 
-<form id="tab2" action=" " class="hidden">
+<form id="tab2" method="POST" action="includes/allatfeltolt.inc.php" class="hidden">
     <div class="w-full max-w-[40rem] h-[52rem] bg-[#1e6726] rounded-lg mt-5 m-auto">
         <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">Állatfeltöltés</h1>
         <div class="w-full h-24">
             <div class="w-5/12 h-8 bg-[#61a352] rounded-lg ml-8  inline-block align-top">
                 <input type="text" name="nev" id="nev" placeholder="Állat neve" class="bg-inherit rounded-lg h-full w-full text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-px">
-                <input type="text" name="breed" id="breed" placeholder="Állat fajtája" class="bg-[#61a352] rounded-lg h-8 w-full text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">
+                <input type="text" name="faj" id="faj" placeholder="Állat fajtája" class="bg-[#61a352] rounded-lg h-8 w-full text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">
             </div>
             <div class="w-3/12 h-full bg-[#61a352] rounded-lg mr-8 inline-block align-top float-right ">
                 <input type="file" id="img" name="img" accept="image/*" class="w-full h-full opacity-0 cursor-pointer z-40 relative">
@@ -105,14 +105,20 @@
             <input type="number" min="0" max="999" name="kor" id="kor" placeholder="Állat kora" class="bg-[#61a352] rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5 ml-8">
             <select name="nem" id="nem" class="h-8 w-5/12  ml-9 rounded-lg text-white bg-[#61a352] focus:outline-none focus:ring focus:ring-violet-300">
                 <option disabled selected hidden>Nem</option>
-                <option value="fm">Nőstény</option>
-                <option value="m">Hím</option>
+                <option value="Nőstény">Nőstény</option>
+                <option value="Hím">Hím</option>
             </select>
-            <div class="flex items-center">
-                <input id="ivart" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 ml-8 mt-5">
+            <input type="text" name="meret" id="meret" placeholder="Állat mérete" class="bg-[#61a352] ml-8 rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">
+            <input type="number" min="0.1" step="any" name="suly" id="suly" placeholder="Állat súlya (Kg)" class="bg-[#61a352] ml-9 rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">
+
+            <div class="flex items-center w-full">
+            <input type="text" name="szin" id="szin" placeholder="Állat színe" class="bg-[#61a352] ml-8 rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">
+
+                <input id="ivart" name="ivart" type="checkbox" value="1" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 ml-10 mt-5">
                 <label for="ivart" class="ms-2 text-sm font-medium text-white mt-5">Ivartalanított-e?</label>
+
             </div>
-            <div class="m-auto max-w-[36rem] h-[30rem] w-full">
+            <div class="m-auto max-w-[36rem] h-[26rem] w-full">
                 <textarea type="text" name="egyeb" id="egyeb" class="w-full h-full bg-slate-200 rounded-lg mt-6 text-white placeholder:text-white focus:outline-none focus:ring focus:ring-violet-300 pl-2 pt-1 resize-none" placeholder="Egyéb információ" style="background-color: #61a352;"></textarea>
                 <button type="submit" value="Beküldés" class="align-top cursor-pointer  mt-4 hover:bg-[#003300] text-center bg-[#61a352] rounded-lg h-8 w-5/12 text-white  pl-2 focus:outline-none focus:ring focus:ring-violet-300  mr-8 float-right">Beküldés</button>
             </div>

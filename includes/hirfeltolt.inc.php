@@ -21,18 +21,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             mysqli_stmt_execute($sql);
             mysqli_stmt_store_result($sql);
         }
-
-            if(mysqli_num_rows($res) > 0){
-                header("Location: ../newsupload.php?existinguser=1");
-                exit();
-            }
-            else{
                 $stmt = "INSERT INTO hirek(cim, tartalom)
                 VALUES('$cim', '$hir')";
                 mysqli_query($conn, $stmt); 
                 header("Location: ../newsupload.php?hirfeltoltes=siker");
                 exit();
-            }
     }
 }
 else{

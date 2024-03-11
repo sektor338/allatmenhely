@@ -52,18 +52,13 @@
   ?>
 
   <!--  Támogatók (1) -->
-  <div class="flex justify-center items-center p-8 min-w-[380px]">
-    <img class="top-[17rem] left-[45rem]  h-[30rem] w-[30rem]" src="images/pollaklogo1.png" alt="">
+
+  <div class="flex justify-center items-center m-6">
+    <img class="h-[500px] w-[500px] 
+                max-md:h-[450px] max-md:w-[450px] 
+                max-sm:h-[350px] max-sm:w-[350px]" src="images/pollaklogo1.png" alt="Pollák">
   </div>
 
-  <!-- Macska a lap alján -->
-  <footer>
-    <div class="absolute mx-auto bottom-0 w-full min-w-[380px]">
-      <img class="h-[10rem] w-[30rem] block m-auto" src="images/parentceca.png" alt="">
-    </div>
-  </footer>
-
-  </div>
 </body>
 </html>
 

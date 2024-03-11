@@ -68,7 +68,7 @@
                     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 my-4">
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" placeholder="Teljes név" name="full_name" />
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="email" placeholder="Email" name="email" />
-                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" placeholder="Telefonszám" name="phone" />
+                        <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="tel" placeholder="Telefonszám" name="phone" />
                         <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" placeholder="Lakcím" name="lakcim" />
                     </div>
                     <div class="my-4">

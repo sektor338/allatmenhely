@@ -105,8 +105,8 @@
             <input type="number" min="0" max="999" name="kor" id="kor" placeholder="Állat kora" class="bg-[#61a352] rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5 ml-8">
             <select name="nem" id="nem" class="h-8 w-5/12  ml-9 rounded-lg text-white bg-[#61a352] focus:outline-none focus:ring focus:ring-violet-300">
                 <option disabled selected hidden>Nem</option>
-                <option value="fm">Nőstény</option>
-                <option value="m">Hím</option>
+                <option value="Nőstény">Nőstény</option>
+                <option value="Hím">Hím</option>
             </select>
             <input type="text" name="meret" id="meret" placeholder="Állat mérete" class="bg-[#61a352] ml-8 rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">
             <input type="number" min="0.1" step="any" name="suly" id="suly" placeholder="Állat súlya (Kg)" class="bg-[#61a352] ml-9 rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">

@@ -51,21 +51,19 @@
 
 <?php
       
-      require_once("./includes/navbar.php");
+    require_once("./includes/navbar.php");
 
 ?>
+
 <!-- feltölts váltó gomb -->
 
 <button class="button-57 ml-8 mt-4" role="button" id="gomb"><span class="text" id="str1">Váltás</span><span id="str2">Állat feltöltés</span></button>
-
 
 <!-- Hírfeltöltés -->
 
 <form id="tab1" method="POST" action="includes/hirfeltolt.inc.php">
     <div class="w-full max-w-[40rem] h-[50rem] bg-[#1e6726] rounded-lg mt-5 m-auto">
-            <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">
-            Hírfeltöltés
-            </h1>
+        <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">Hírfeltöltés</h1>
         <div class="w-full h-24">
             <div class="w-5/12 h-8 bg-[#61a352] rounded-lg ml-8  inline-block align-top">
                 <input type="text" name="cim" id="cim" placeholder="Cím" class="bg-inherit rounded-lg h-full w-full text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300">
@@ -89,9 +87,7 @@
 
 <form id="tab2" action=" " class="hidden">
     <div class="w-full max-w-[40rem] h-[52rem] bg-[#1e6726] rounded-lg mt-5 m-auto">
-            <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">
-            Állatfeltöltés
-            </h1>
+        <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">Állatfeltöltés</h1>
         <div class="w-full h-24">
             <div class="w-5/12 h-8 bg-[#61a352] rounded-lg ml-8  inline-block align-top">
                 <input type="text" name="nev" id="nev" placeholder="Állat neve" class="bg-inherit rounded-lg h-full w-full text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-px">
@@ -106,42 +102,44 @@
             </div>
         </div>
         <div class="w-full h-full">
-            <input type="text" name="kor" id="kor" placeholder="Állat kora" class="bg-[#61a352] rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5 ml-8">
+            <input type="number" min="0" max="999" name="kor" id="kor" placeholder="Állat kora" class="bg-[#61a352] rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5 ml-8">
             <select name="nem" id="nem" class="h-8 w-5/12  ml-9 rounded-lg text-white bg-[#61a352] focus:outline-none focus:ring focus:ring-violet-300">
-            <option disabled selected hidden>Nem</option>
-              <option value="fm">Nőstény</option>
-              <option value="m">Hím</option>
+                <option disabled selected hidden>Nem</option>
+                <option value="fm">Nőstény</option>
+                <option value="m">Hím</option>
             </select>
             <div class="flex items-center">
                 <input id="ivart" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 ml-8 mt-5">
                 <label for="ivart" class="ms-2 text-sm font-medium text-white mt-5">Ivartalanított-e?</label>
-            </div><div class="m-auto max-w-[36rem] h-[30rem] w-full">
-            <textarea type="text" name="egyeb" id="egyeb" class="w-full h-full bg-slate-200 rounded-lg mt-6 text-white placeholder:text-white focus:outline-none focus:ring focus:ring-violet-300 pl-2 pt-1 resize-none" placeholder="Egyéb információ" style="background-color: #61a352;"></textarea>
-            <button type="submit" value="Beküldés" class="align-top cursor-pointer  mt-4 hover:bg-[#003300] text-center bg-[#61a352] rounded-lg h-8 w-5/12 text-white  pl-2 focus:outline-none focus:ring focus:ring-violet-300  mr-8 float-right">Beküldés</button>
+            </div>
+            <div class="m-auto max-w-[36rem] h-[30rem] w-full">
+                <textarea type="text" name="egyeb" id="egyeb" class="w-full h-full bg-slate-200 rounded-lg mt-6 text-white placeholder:text-white focus:outline-none focus:ring focus:ring-violet-300 pl-2 pt-1 resize-none" placeholder="Egyéb információ" style="background-color: #61a352;"></textarea>
+                <button type="submit" value="Beküldés" class="align-top cursor-pointer  mt-4 hover:bg-[#003300] text-center bg-[#61a352] rounded-lg h-8 w-5/12 text-white  pl-2 focus:outline-none focus:ring focus:ring-violet-300  mr-8 float-right">Beküldés</button>
+            </div>
         </div>
-        </div>
-    
 </div>
 </form>
 
 <script>
-let h1 = document.getElementById("str2");
-let a = 0;
 
-gomb.addEventListener("click", e =>{
-    tab1.classList.toggle("hidden")
-    tab2.classList.toggle("hidden")
-    if (a==0) {
-        a++;
-        h1.innerText="Hír feltöltése";
-    }
-    else {
-        a--;
-        h1.innerText="Állat feltöltése";
-    }
-    })
+    let h1 = document.getElementById("str2");
+    let a = 0;
+
+    gomb.addEventListener("click", e =>{
+        tab1.classList.toggle("hidden")
+        tab2.classList.toggle("hidden")
+        if (a==0) {
+            a++;
+            h1.innerText="Hír feltöltése";
+        }
+        else {
+            a--;
+            h1.innerText="Állat feltöltése";
+        }
+        })
 
 </script>
 
 </body>
+
 </html>

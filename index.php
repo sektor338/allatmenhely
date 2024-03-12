@@ -1,65 +1,22 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="hu-HU">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fradisták Az Állatokért</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="description" content="Fradi állatmentő szolgálat">
-    <link rel="stylesheet" href="main.css">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              text: "var(--text)",
-              background: "var(--background)",
-              primary: "var(--primary)",
-              secondary: "var(--secondary)",
-              accent: "var(--accent)",
-            },
-
-          },
-        },
-      };
-    </script>
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
-    <style type="text/tailwindcss">
-      @layer utilities {
-        .content-auto {
-          content-visibility: auto;
-        }
-        .cella {
-          @apply flex-grow bg-secondary rounded-lg p-5 mb-4 shadow-xl;
-        }
-        .section {
-          @apply flex-grow flex flex-col p-5 bg-primary rounded-lg min-h-[500px];
-        }
-      }
-      @layer base {
-        :root {
-          --text: #ffd899;
-          --background: #131313;
-          --primary: #1e6726;
-          --secondary: #61a352;
-          --accent: #dfa553;
-        }
-      }
-    </style>
-     <script src="js/index.js" defer></script>
   </head>
-
   <body class="bg-background min-h-screen pt-[114px]">
       <?php
-      
         require_once("./includes/navbar.php");
-
       ?>
 
     <!-- KÉPEK -->
     <!-- adatbázisból lekérés -->
     
-      <div class="container flex flex-row max-[1000px]:flex-col max-md:text-xl max-sm:text-l text-2xl mx-auto m-6 p-4 w-full h-auto gap-8">
+    <div class="container flex flex-row max-[1000px]:flex-col max-md:text-xl max-sm:text-l text-2xl mx-auto m-6 p-4 w-full h-auto gap-8">
 
       <div class="flex gap-8 max-md:flex-col">
 
@@ -136,10 +93,8 @@
             </div>
             <div class="cella">
               <span></span>
-            </div>
-          </div>
+           </div>
         </div>
-    
-
+      </div>
   </body>
 </html>

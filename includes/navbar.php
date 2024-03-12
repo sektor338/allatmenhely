@@ -1,5 +1,4 @@
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   <style>
@@ -46,8 +45,35 @@
     .ggver:hover {
       color: var(--secondary);
     }
+
+    body {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #6baf8d;
+  --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+
   </style>
-</head>
+
 <script>
       tailwind.config = {
         theme: {
@@ -76,8 +102,8 @@
 <nav class="p-4 border-b-2 border-accent fixed z-50 top-0 left-0 w-full bg-background">
       <div class="text-text container mx-auto flex justify-between">
         <div class="flex items-center space-x-3 rtl:space-x-reverse">
-        <a href="./index.php" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
-          <a href="./index.php" aria-label="Fradisták Az Állatokért">
+        <a href="/aaaa" aria-label="Fradisták Az Állatokért"><img src="images/logo.png" alt="Logó" class="w-20 h-20" /></a>
+          <a href="/aaaa" aria-label="Fradisták Az Állatokért">
             <span class="ggver max-md:hidden title">
               Fradisták Az Állatokért</span></a>
         </div>
@@ -103,7 +129,22 @@
       .active{
         @apply relative after:absolute after:w-full after:-bottom-1 after:left-0 after:h-0.5 after:bg-accent after:animate-active;
       }
+      .cella {
+          @apply flex-grow bg-secondary rounded-lg p-5 mb-4 shadow-xl;
+        }
+        .section {
+          @apply flex-grow flex flex-col p-5 bg-primary rounded-lg min-h-[500px];
+        }
     }
+
+      @layer base {
+        :root {
+          --text: #ffd899;
+          --background: #131313;
+          --primary: #1e6726;
+          --secondary: #61a352;
+          --accent: #dfa553;
+        }}
   </style>
 <script defer>
 var path = window.location.pathname;
@@ -124,6 +165,11 @@ routes.map(([label, to]) => {
 
 });
 
+const hmenu = () => {
+  menu.classList.toggle("max-md:opacity-0");
+  menu.classList.toggle("max-md:pointer-events-none");
+  menu.classList.toggle("max-md:-translate-y-3");
+};
 
 
 </script>

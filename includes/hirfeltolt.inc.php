@@ -21,9 +21,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             mysqli_stmt_execute($sql);
             mysqli_stmt_store_result($sql);
         }
-                $stmt = "INSERT INTO hirek(cim, tartalom)
-                VALUES('$cim', '$hir')";
-                mysqli_query($conn, $stmt); 
+                $stmt = $conn->prepare("INSERT INTO hirek (cim, tartalom)
+                VALUES(?, ?)");
+                $stmt->bind_param("ss", $cim, $hir);
+                $stmt->execute();
+                $stmt->close();
                 header("Location: ../newsupload.php?hirfeltoltes=siker");
                 exit();
     }

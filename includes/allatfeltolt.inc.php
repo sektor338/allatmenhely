@@ -32,9 +32,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 if(isset($_POST['ivart']) && $_POST['ivart'] == "1"){
                     $ivart="Igen";
                 }
-                $stmt = "INSERT INTO allatok(nev, kor, nem, faj, kep, leiras, ivartalanitott, szin, meret, suly)
-                VALUES('$nev', '$kor', '$nem', '$faj', '$img', '$egyeb', '$ivart', '$szin', '$meret', '$suly')";
-                mysqli_query($conn, $stmt);
+                $stmt = $conn->prepare("INSERT INTO allatok(nev, kor, nem, faj, kep, leiras, ivartalanitott, szin, meret, suly)
+                VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt->bind_param("sisssssssi", $nev, $kor, $nem, $faj, $img, $egyeb, $ivart, $szin, $meret, $suly);
+                $stmt->execute();
+                $stmt->close();
                 header("Location: ../newsupload.php?allatfeltoltes=siker");
                 exit();
             }

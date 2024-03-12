@@ -57,12 +57,14 @@
 
 <!-- feltölts váltó gomb -->
 
-<button class="button-57 ml-8 mt-4" role="button" id="gomb"><span class="text" id="str1">Váltás</span><span id="str2">Állat feltöltés</span></button>
+<div class="w-full max-w-[40rem] h-[67px] mt-5 m-auto">
+    <button class="button-57 mt-4 float-right" role="button" id="gomb"><span class="text" id="str1">Váltás</span><span id="str2">Állat feltöltés</span></button>
+</div>
 
 <!-- Hírfeltöltés -->
 
 <form id="tab1" method="POST" action="includes/hirfeltolt.inc.php">
-    <div class="w-full max-w-[40rem] h-[50rem] bg-[#1e6726] rounded-lg mt-5 m-auto">
+    <div class="w-full max-w-[40rem] h-[50rem] bg-[#1e6726] rounded-lg m-auto rounded-tr-none">
         <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">Hírfeltöltés</h1>
         <div class="w-full h-24">
             <div class="w-5/12 h-8 bg-[#61a352] rounded-lg ml-8  inline-block align-top">
@@ -86,7 +88,7 @@
 <!-- Állatfeltöltés -->
 
 <form id="tab2" method="POST" action="includes/allatfeltolt.inc.php" class="hidden">
-    <div class="w-full max-w-[40rem] h-[52rem] bg-[#1e6726] rounded-lg mt-5 m-auto">
+    <div class="w-full max-w-[40rem] h-[52rem] bg-[#1e6726] rounded-lg m-auto rounded-tr-none">
         <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">Állatfeltöltés</h1>
         <div class="w-full h-24">
             <div class="w-5/12 h-8 bg-[#61a352] rounded-lg ml-8  inline-block align-top">

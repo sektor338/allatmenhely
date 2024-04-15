@@ -63,7 +63,7 @@
 
 <!-- Hírfeltöltés -->
 
-<form id="tab1" method="POST" action="includes/hirfeltolt.inc.php">
+<form id="tab1" method="POST" action="includes/hirfeltolt.inc.php" enctype="multipart/form-data">
     <div class="w-full max-w-[40rem] h-[50rem] bg-[#1e6726] rounded-lg m-auto rounded-tr-none">
         <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">Hírfeltöltés</h1>
         <div class="w-full h-24">
@@ -87,7 +87,7 @@
 
 <!-- Állatfeltöltés -->
 
-<form id="tab2" method="POST" action="includes/allatfeltolt.inc.php" class="hidden">
+<form id="tab2" method="POST" action="includes/allatfeltolt.inc.php" enctype="multipart/form-data" class="hidden">
     <div class="w-full max-w-[40rem] h-[52rem] bg-[#1e6726] rounded-lg m-auto rounded-tr-none">
         <h1 class="text-2xl text-white mb-8 mx-8 border-b-2 border-secondary">Állatfeltöltés</h1>
         <div class="w-full h-24">
@@ -116,18 +116,17 @@
             <div class="flex items-center w-full">
             <input type="text" name="szin" id="szin" placeholder="Állat színe" class="bg-[#61a352] ml-8 rounded-lg h-8 w-5/12 text-white placeholder:text-white pl-2 focus:outline-none focus:ring focus:ring-violet-300 mt-5">
 
-                <input id="ivart" name="ivart" type="checkbox" value="1" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 ml-10 mt-5">
-                <label for="ivart" class="ms-2 text-sm font-medium text-white mt-5">Ivartalanított-e?</label>
+                <input id="ivartalanitott" name="ivartalanitott" type="checkbox" value="1" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2 ml-10 mt-5">
+                <label for="ivartalanitott" class="ms-2 text-sm font-medium text-white mt-5">Ivartalanított-e?</label>
 
             </div>
             <div class="m-auto max-w-[36rem] h-[26rem] w-full">
-                <textarea type="text" name="egyeb" id="egyeb" class="w-full h-full bg-slate-200 rounded-lg mt-6 text-white placeholder:text-white focus:outline-none focus:ring focus:ring-violet-300 pl-2 pt-1 resize-none" placeholder="Egyéb információ" style="background-color: #61a352;"></textarea>
+                <textarea type="text" name="leiras" id="leiras" class="w-full h-full bg-slate-200 rounded-lg mt-6 text-white placeholder:text-white focus:outline-none focus:ring focus:ring-violet-300 pl-2 pt-1 resize-none" placeholder="Egyéb információ" style="background-color: #61a352;"></textarea>
                 <button type="submit" value="Beküldés" class="align-top cursor-pointer  mt-4 hover:bg-[#003300] text-center bg-[#61a352] rounded-lg h-8 w-5/12 text-white  pl-2 focus:outline-none focus:ring focus:ring-violet-300  mr-8 float-right">Beküldés</button>
             </div>
         </div>
 </div>
 </form>
-
 <script>
 
     let h1 = document.getElementById("str2");

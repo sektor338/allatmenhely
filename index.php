@@ -67,13 +67,35 @@
           <h1 class="text-2xl border-b-2 border-secondary mb-8 text-white">
             Fogadj örökbe!
           </h1>
+
           <div class="flex flex-col flex-grow">
-            <div class="cella">
-              <!-- kép -->
-            </div>
-            <div class="cella">
-              <!-- kép -->
-            </div>
+                      <?php
+include_once "includes/dbh.inc.php";
+$sql = "SELECT * FROM `allatok`";
+
+$res = mysqli_query($conn, $sql);
+            while($row = mysqli_fetch_array($res)){
+                $id=$row['id'];
+                $nev = $row['nev'];
+                $kor = $row['kor'];
+                $nem = $row['nem'];
+                $faj = $row['faj'];
+                $kep = $row['kep'];
+                $leiras = $row['leiras'];
+                if ($row['ivartalanitott'] == 1) {
+                  $ivartalanitott = "Ivartalanított";
+                }
+                else {
+                  $ivartalanitott = "Nem ivartalanított";
+                }
+                $szin = $row['szin'];
+                $meret = $row['meret'];
+                $suly = $row['suly'];
+                echo "
+                <div class='cella'>
+                <span>Név: $nev<br>Kor: $kor<br>Nem: $nem<br>Faj: $faj<br> $ivartalanitott <br>Szín: $szin<br>Méret: $meret<br>Súly: $suly kg<br>Leírás: $leiras<img src='$kep'></img></span>
+              </div>";}?>
+
           </div>
         </div>
 
@@ -119,24 +141,21 @@
             Hírek
           </h1>
           <div class="flex flex-col flex-grow">
-            <div class="cella">
-              <span></span>
-            </div>
-            <div class="cella ">
-              <span></span>
-            </div>
-            <div class="cella">
-              <span></span>
-            </div>
-            <div class="cella">
-              <span></span>
-            </div>
-            <div class="cella">
-              <span></span>
-            </div>
-            <div class="cella">
-              <span></span>
-            </div>
+<?php
+include_once "includes/dbh.inc.php";
+$sql = "SELECT * FROM `hirek`";
+
+$res = mysqli_query($conn, $sql);
+            while($row = mysqli_fetch_array($res)){
+                $id=$row['id'];
+                $cim = $row['cim'];
+                $datum = $row['datum'];
+                $tartalom = $row['tartalom'];
+                $kep = $row['kep'];
+                echo "
+                <div class='cella'>
+                <span>$cim $datum $tartalom <img src='$kep'></img></span>
+              </div>";}?>
           </div>
         </div>
     
